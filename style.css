@@ -1,0 +1,109 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url("web dev projects.png");
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100vw;
+    height:100vh
+}
+header{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    padding: 10px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+.logo{
+   padding: 10px;
+   margin-right: 330px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    list-style: none;
+    gap: 50px;
+    font-size: 20px;
+    font-weight: 300;
+    margin: 10px;
+    padding: 10px;
+    
+
+}
+nav ul li{
+  text-decoration: none;
+  list-style: none;
+  font-family: "Dela Gothic One"
+}
+
+.button-small {
+    padding: 12px 40px;
+    background-color: #ff505f;
+    border: none;
+    font-family: "Red Rose";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #ffffff;
+    cursor: pointer;
+    margin-left: 305px;
+  }
+
+  /* end of header */
+  section{
+    margin-top: 130px;
+  }
+  p{
+    /*   */
+    font-family: "Dela Gothic One";
+    text-align: center;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 104px;
+    line-height: 40px;
+    margin-left: 150px;
+    margin-top: 85px;
+    /* or 110% */
+    color:#ffc233;
+  }
+  .btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .buttonlarge{
+    display: flex;
+    padding: 12px 40px;
+    background-color: #ff505f;
+    border: none;
+    font-family: "Red Rose";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 20px;
+    color: #ffffff;
+    cursor: pointer;
+    margin-left: 5vw;
+    margin-top: 60px;
+
+  }
+
+  footer{
+    display: flex;
+    align-items: flex-end;
+  }
+  .img{
+    display: flex;
+    align-items: flex-end;
+    margin-top: 30px;
+    margin-left: 87vw;
+  }
